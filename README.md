@@ -2,4 +2,6 @@
 DatabaseManager.Dapper
 
 
-If anyone like to starte using database manager without any hustle
+Requirement:
+Only support from .NetCore 2.0 Or higher
+
