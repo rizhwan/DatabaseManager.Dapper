@@ -47,5 +47,4 @@ namespace DatabaseManager.Dapper
             }
         }
     }
-
 }
