@@ -10,10 +10,9 @@ namespace DatabaseManager.Dapper
                                         Password = <YourStrong!Passw0rd>; ";
 
 
-            var sb = new DatabaseManager(connectionString);
-
+            var databaseManager = new DatabaseManager(connectionString);
        
-            var sss = sb.Query<Customer>("select * from Customer");
+            var customers = databaseManager.Query<Customer>("select * from Customer");
 
             Console.WriteLine("Hello World!");
         }
